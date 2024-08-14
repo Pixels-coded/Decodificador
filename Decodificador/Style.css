@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+:root{
+    --cor-background: #F3F5FC;
+    --cor-texto: #0A3871;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter" , "sans-serif";
+    background-color: var(--cor-background);
+    box-sizing: border-box;
+}
+
+.logo_alura{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 8%;
+}
+
+.principal{
+    display: flex;
+    height: 80vh;
+}
+
+.text_area{
+    border: none;
+    color: var(--cor-texto);
+    margin-top: 90px;
+    margin-left: 240px;
+    margin-bottom: 200px;
+    text-transform: lowercase;
+    
+}
+
+::placeholder{ color: var(--cor-texto);}
+.text_area:focus{
+    outline: none;
+}
+
+.mensagem{
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    color: var(--cor-texto);
+    margin-left: 98px;
+    padding-top: 30px;
+    padding-left: 20px;
+    position: absolute;
+    cursor: default;
+}
+
+.sem_mensagem{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 125px;
+    text-align: center;
+    background-color: white;
+    color: #343A40;
+}
+
+.sem_mensagem1{
+    font-size: 20px;
+    padding-bottom: 8px;
+    background-color: white;
+}
+
+.sem_mensagem2{
+    background-color: white;
+}
+
+.sem_mensagem_img{
+    background: white;
+    width: 300px;
+    height: 304px;
+}
+
+
+.msg:focus{
+    outline: none;
+}
+
+.exclamacao{
+    margin-top: 455px;
+    margin-left: 225px;
+    position: absolute;
+}
+
+.informacao{
+    margin-left: 250px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 240px;
+    gap: 5%;
+}
+
+.criptografar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.descriptografar{
+    background-color: white;
+    border: 1px solid #0A3871;
+    color: var(--cor-texto);
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid var(--cor-texto);
+    border-radius: 24px;
+    color: var(--cor-texto);
+    background-color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 510px;
+    position: absolute;
+    width: 336px;
+}
+
+.rodape{
+    background-color: #0A3871;
+    color: white;
+    padding: 19.5px;
+    text-align: center;
+}

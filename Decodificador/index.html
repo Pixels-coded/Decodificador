@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo_alura" src="./Assets/logoalura.png" alt="Logo da Alura">
+    </header>
+
+    <main class="principal">
+        <section>
+            <img class="exclamacao" src="./Assets/exclamacao.png" alt="Aviso, excalamação"> 
+            <textarea class="text_area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="45" rows="35"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+            <div class="sem_mensagem">
+                <h5 class="sem_mensagem1">Nenhuma mensagem encontrada</h5>
+                <h6 class="sem_mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</h6>
+                <img class="sem_mensagem_img" src="./Assets/High quality products 1 1.svg" alt="Menino com lupa procurando algo">
+            </div>
+        </section>
+    </main>
+<footer class="rodape">
+    Desenvolvido para o Challenge Decodificador: Alura + ONE por Pedro Monteiro de Oliveira
+</footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>
